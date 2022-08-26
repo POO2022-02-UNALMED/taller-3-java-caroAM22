@@ -15,6 +15,7 @@ public class TV {
 		this.canal=1;
 		this.volumen=1;
 		this.precio=500;
+		TV.numTV+=1;
 	}
 	
 	public Marca getMarca() {
@@ -61,6 +62,11 @@ public class TV {
 	public int getNumTV() {
 		return numTV;
 	}
+	
+	public void setNumTV(int numTV) {
+		TV.numTV=numTV;
+	}
+	
 	
 	public void turnOn() {
 		this.estado=true;

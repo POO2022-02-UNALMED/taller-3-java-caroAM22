@@ -7,7 +7,7 @@ public class TestTV {
 		
 	    TV tv1 = new TV(marca1, true);
 	    TV tv2 = new TV(marca2, false);
-	    
+
 	    tv1.setPrecio(2000);
 	    tv2.setCanal(90);
 	    tv1.setCanal(121);
