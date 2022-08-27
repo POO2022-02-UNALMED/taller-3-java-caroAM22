@@ -12,13 +12,10 @@ public class TV {
 	public TV(Marca marca,boolean estado) {
 		this.marca=marca;
 		this.estado=estado;
-<<<<<<< HEAD
 		TV.numTV++;
-=======
 		this.canal=1;
 		this.volumen=1;
 		this.precio=500;
->>>>>>> parent of 6d08cd5 (intento5)
 	}
 
 	public Marca getMarca() {
